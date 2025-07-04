@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Lieux de mariage à Québec - Élégance & Prestige</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bleu-marine: #11009e;
+      --rose-prisme: #EF3167;
+      --doré: #bfa054;
+      --blanc-cassé: #f9f7f1;
+      --gris-clair: #e8e6df;
+      --gris-moyen: #999591;
+      --creme: #fff5e6;
+    }
+
+    body {
+      background: var(--blanc-cassé);
+      color: var(--bleu-marine);
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 3rem 2rem;
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      font-family: 'Pinyon Script', cursive;
+      font-weight: 700;
+      color: var(--bleu-marine);
+      text-transform: capitalize;
+      text-shadow: 0 1px 2px rgba(17, 0, 158, 0.15);
+    }
+
+    h1 {
+      font-size: 4.2rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      letter-spacing: 0.05em;
+      text-transform: none;
+      text-shadow: 0 3px 6px rgba(17, 0, 158, 0.25);
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin: 0 0 0.4rem 0;
+      letter-spacing: 0.02em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(17, 0, 158, 0.08);
+      margin-bottom: 3rem;
+      display: flex;
+      overflow: hidden;
+      border: 1.5px solid var(--doré);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+    li:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(239, 49, 103, 0.15);
+      border-color: var(--rose-prisme);
+    }
+
+    .image-wrapper {
+      flex: 1 1 45%;
+      max-width: 45%;
+      overflow: hidden;
+      position: relative;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.95);
+      transition: transform 0.4s ease;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+    li:hover .image-wrapper img {
+      transform: scale(1.07);
+      filter: brightness(1);
+    }
+
+    .content {
+      flex: 1 1 55%;
+      padding: 2.6rem 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--bleu-marine);
+    }
+
+    .content p.description {
+      font-style: italic;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      margin: 0 0 1.6rem 0;
+      color: var(--bleu-marine);
+    }
+
+    .content p.details {
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0.3rem 0;
+      color: var(--bleu-marine);
+    }
+
+    .btn-link {
+      align-self: flex-start;
+      text-decoration: none;
+      background: var(--creme);
+      color: var(--bleu-marine);
+      padding: 0.9rem 2.2rem;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border-radius: 40px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      letter-spacing: 0.03em;
+      margin-top: 1.5rem;
+      user-select: none;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .btn-link:hover {
+      background: #f2eadc;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    @media (max-width: 850px) {
+      li {
+        flex-direction: column;
+      }
+      .image-wrapper {
+        max-width: 100%;
+        height: 280px;
+        border-radius: 16px 16px 0 0;
+      }
+      .image-wrapper img {
+        border-radius: 16px 16px 0 0;
+      }
+      .content {
+        max-width: 100%;
+        padding: 2rem 1.5rem 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Lieux de mariage à Québec</h1>
+  <ul>
+    <li>
+      <div class="image-wrapper">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Chateau_Frontenac_Quebec_City.jpg" alt="Château Frontenac" />
+      </div>
+      <div class="content">
+        <h2>Château Frontenac</h2>
+        <p class="description">Un lieu emblématique et majestueux offrant une vue spectaculaire sur le fleuve Saint-Laurent.</p>
+        <p class="details"><strong>Adresse :</strong> 1 Rue des Carrières, Québec</p>
+        <p class="details"><strong>Tarifs :</strong> À partir de 3 000 $ pour la location de la salle</p>
+        <a class="btn-link" href="https://www.fairmont.com/frontenac-quebec/weddings/" target="_blank" rel="noopener noreferrer">Site officiel</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="image-wrapper">
+        <img src="https://aubergesaintantoine.com/static/5b1b18a384122dcde6d15c8851ce6c36/50077/asa-hero.jpg" alt="Auberge Saint-Antoine" />
+      </div>
+      <div class="content">
+        <h2>Auberge Saint-Antoine</h2>
+        <p class="description">Lieu historique et raffiné avec une ambiance chaleureuse et intime dans le Vieux-Port.</p>
+        <p class="details"><strong>Adresse :</strong> 8 Rue Saint-Antoine, Québec</p>
+        <p class="details"><strong>Tarifs :</strong> Sur demande selon la formule et le nombre d’invités</p>
+        <a class="btn-link" href="https://www.saint-antoine.com/fr/evenements-mariages/" target="_blank" rel="noopener noreferrer">Site officiel</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="image-wrapper">
+        <img src="https://www.hotelduparlement.com/wp-content/uploads/2018/05/hotel-du-parlement-mariage-quebec.jpg" alt="Hôtel du Parlement" />
+      </div>
+      <div class="content">
+        <h2>Hôtel du Parlement</h2>
+        <p class="description">Un lieu prestigieux pour organiser un mariage élégant dans un décor historique impressionnant.</p>
+        <p class="details"><strong>Adresse :</strong> 1045 Rue des Parlementaires, Québec</p>
+        <p class="details"><strong>Tarifs :</strong> Location de salles à partir de 1 500 $</p>
+        <a class="btn-link" href="https://www.quebec.ca/en/citizens/celebrations/marriages-weddings" target="_blank" rel="noopener noreferrer">Plus d'infos</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="image-wrapper">
+        <img src="https://cdn.lesassisesdelaculture.com/asset/71136/1096294-nikiforos-mavroeidis-oliver-twisted-fest-liepaja-31.jpg" alt="Domaine Cataraqui" />
+      </div>
+      <div class="content">
+        <h2>Domaine Cataraqui</h2>
+        <p class="description">Un domaine charmant et paisible en périphérie de Québec, parfait pour une cérémonie en pleine nature.</p>
+        <p class="details"><strong>Adresse :</strong> 825 Rue du Domaine Cataraqui, Québec</p>
+        <p class="details"><strong>Tarifs :</strong> À partir de 2 000 $</p>
+        <a class="btn-link" href="https://www.domainecataraqui.com/mariage/" target="_blank" rel="noopener noreferrer">Site officiel</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="image-wrapper">
+        <img src="https://lesaboisjolis.com/wp-content/uploads/2019/10/salle-de-mariage-les-aboisjolis.jpg" alt="Les Abois Jolis" />
+      </div>
+      <div class="content">
+        <h2>Les Abois Jolis</h2>
+        <p class="description">Une salle de réception rustique et chaleureuse, idéale pour un mariage convivial près de la nature.</p>
+        <p class="details"><strong>Adresse :</strong> 312 Route 138, Saint-Nicolas (près de Québec)</p>
+        <p class="details"><strong>Tarifs :</strong> À partir de 1 800 $</p>
+        <a class="btn-link" href="https://lesaboisjolis.com/" target="_blank" rel="noopener noreferrer">Site officiel</a>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
